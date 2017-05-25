@@ -1,0 +1,41 @@
+body {
+	background-image: url('../img/yoda3.jpg');
+	background-repeat: repeat;
+}
+
+#quote {
+	border-radius: 8px;
+	padding: 30px;
+	margin: 50px auto;
+	width: 650px;
+	height: 240px;
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+	font-family: Times, sans-serif;
+}
+
+.button {
+	display: block;
+	font-family: Times, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+	background-color: transparent;
+	border : 1px solid #8bb79d;
+	border-radius: 8px;
+	padding: 40px;
+	margin: 40px auto;
+	width: 400px;
+	outline: none;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+	cursor : pointer;
+	background-color: rgba(139, 183, 157, 0.2);
+	color: #fff;
+	font-size: 30px;
+	width: 480px;
+}
